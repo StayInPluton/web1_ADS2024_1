@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+
+<body>
+
+
+    <form action="mensagem.html" target="_blank">
+        <fieldset>
+            <legend>Campos de Texto</legend>
+            <label for="">Nome:</label>
+            <br>
+            <input type="text" name="" id="txtNome" size="30" maxlength="100" placeholder="nome">
+            <br><br>
+            <label for="txtSenha">Senha:</label>
+            <br>
+            <input type="password" name="" id="txtSenha" size="30" placeholder="">
+            <br><br>
+            <label for="txtConfirmaSenha">Confirma tua senha:</label>
+            <br>
+            <input type="password" name="" id="txtConfirmaSenha" size="30" placeholder="Confirmar senha">
+            <br><br>
+            <label for="">Observação:</label>
+            <br>
+            <textarea name="" id="txtObservacao" cols="30" rows="10"></textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend>Campos de seleção</legend>
+
+            <select name="" id="selCampus">
+                <option value=""></option>
+                <option value="jab">Jaboatão dos Guararapes</option>
+                <option value="Rec">Recife</option>
+            </select>
+            <br>
+
+            <label for="">Cursos</label>
+            <input type="checkbox" name="" id="">
+            <br>
+
+            <label for="">IPI</label>
+            <input type="checkbox" name="" id="cbxIPI" value="IPI">
+            <br>
+
+            <label for="">ADS</label>
+            <input type="checkbox" name="" id="cbxADS" value="ADS">
+            <br>
+
+            <label for="cbxIntegrado">Integrado</label>
+            <input type="checkbox" name="" id="cbxIntegrado" value="Integrado">
+            <br>
+
+            <label for="cbxQualidade">Qualidade</label>
+            <input type="checkbox" name="" id="cbxQualidade" value="Qualidade">
+            <br><br>
+            <label for="">Turno:</label>
+            <label for="radManha">Manhã</label>
+            <input type="radio" name="turno" id="radManha" value="manha">
+            <label for="radTarde">Tarde</label>
+            <input type="radio" name="turno" id="radTarde" value="tarde">
+            <label for="radNoite">Noite</label>
+            <input type="radio" name="turno" id="radNoite" value="noite">
+
+            <fieldset>
+                <legend>Botões</legend>
+                <input type="reset" value="Limpar">
+                <input type="submit" value="Cadastrar">
+                <button onclick="alert('Pedro é hetero')">
+                    <img src="images.jpg" alt="" width="20" height="10">
+                </button>
+            </fieldset>
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
