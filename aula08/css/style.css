@@ -1,0 +1,23 @@
+*{
+   
+}
+body{
+    background-color: bisque;
+   text-align: justify;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color: rgb(255, 132, 132);
+  }
+  h1{
+      background-color: rgb(255, 211, 158);
+
+  }
+  p{
+      font-size: 200%;
+      
+  }
+  #pag2{
+    text-align: right;
+  }
+  .minhaClasse{
+    background-color: rgb(255, 252, 218);
+  }

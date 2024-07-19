@@ -1,0 +1,30 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: chocolate;
+}
+
+#idtitulo{
+    background-color: aqua;
+}
+.tituloDescricao{
+    color: rgb(0, 0, 0);
+}
+#drama{
+    color: darkblue;
+}
+
+#botaoCadastro{
+    background-color: chartreuse;
+}
+#idoscar{
+    color: deeppink;
+}
+#idglo{
+    color: rgb(182, 83, 137);
+}
+#idcal{
+    color: rgb(243, 172, 211);
+}
+#idbar{
+    color: rgb(176, 143, 161);
+}
