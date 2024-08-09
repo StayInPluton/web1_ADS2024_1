@@ -1,0 +1,54 @@
+body{
+    height: 2000px;
+}
+
+.elemento{
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5%;
+    color: white;
+    text-shadow: 6px 7px 4px black;
+}
+.elemento01{
+    background-color: chartreuse;
+    right: 0%;
+    position: absolute;
+}
+
+.elemento02{
+    background-color: brown;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    /* transform: translateX(-50%), translateY(-50%); */
+    transform: translate(-50%, -50%);
+
+}
+.elemento03{
+    background-color: aquamarine;
+    position: absolute;
+    bottom: 0%;
+}
+
+.elementoInterno{
+    width: 100px;
+    height: 100px;
+    background-color: bisque;
+    line-height: 100px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.circulo{
+    border-radius: 50%;
+}
+
+div:hover{
+    box-shadow: -1px 1px 20px 7px rgb(235, 8, 8);
+}

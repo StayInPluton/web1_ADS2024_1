@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'minhaFonte';
+    src: url(fontes/Josefin_Sans/JosefinSans-Italic-VariableFont_wght.ttf), url(fontes/Josefin_Sans/JosefinSans-VariableFont_wght.ttf);
+}
+
+p{
+    font-family: minhaFonte;
+}
